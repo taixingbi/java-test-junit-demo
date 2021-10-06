@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f87050b1-f24c-43b1-a3fe-4bd37a817706" name="remote-myaws-kafka" url="http://localhost">
+        <fileTransfer rootFolder="/work" accessType="SFTP" host="ec2-18-223-133-30.us-east-2.compute.amazonaws.com" port="22" sshConfigId="f1c5f27c-68f1-4fa2-96a7-ed577a304a0a" sshConfig="ec2-user@ec2-18-223-133-30.us-east-2.compute.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
